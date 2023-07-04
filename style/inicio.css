@@ -1,0 +1,146 @@
+/* Menu  */
+.nav-inicio ul {
+  display: flex;
+  gap: 10px;
+}
+.img-logotipo {
+  width: 230px;
+}
+.container-icon-menu {
+  display: flex;
+  gap: 10px;
+}
+.container-bg-blue {
+  background: #143244;
+}
+.container-center {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 40px 15px;
+}
+.description-top {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.description-top p {
+  margin: 0;
+}
+.description-top label {
+  color: #fff;
+  margin-right: 15px;
+}
+.description-top select {
+  padding: 5px 10px;
+  background: #83e5ae;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  gap: 30px;
+}
+.grid-1 {
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 7px;
+}
+.grid-1 h3 {
+  font-size: 1.1em;
+  color: rgba(255, 255, 255, 0.3);
+  margin: 0;
+}
+.grid-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding-top: 30px;
+}
+.icon {
+  font-size: 2em;
+  transition: 0.2s ease;
+}
+.icon:hover {
+  color: rgba(255, 255, 255, 0.3);
+}
+.color-green {
+  color: #95c05a;
+}
+.color-red {
+  color: #d74532;
+}
+.color-gray {
+  color: #b3b3b3;
+}
+.font-2 {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.color-text p {
+  color: rgba(255, 255, 255, 0.3);
+  margin: 0 !important;
+}
+.grid-container-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+  padding: 3px 0;
+}
+.grid-container-items p {
+  font-size: 0.9em;
+}
+.grid-container-items p:last-child {
+  text-align: right;
+}
+.items-cad {
+  margin-top: 10px;
+}
+.icon-op {
+  display: flex;
+  align-items: center;
+  opacity: 0.3;
+  margin-right: 7px;
+}
+.text-green {
+  color: #95c05a;
+}
+.text-red {
+  color: #d74532;
+}
+.text-gray {
+  color: #b3b3b3;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 900px) {
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .img-logotipo {
+    max-width: 40%;
+  }
+  .btn-login {
+    max-width: 30px;
+    max-height: 30px;
+  }
+  .description-top {
+    flex-direction: column;
+  }
+}

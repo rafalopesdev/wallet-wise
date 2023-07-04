@@ -1,0 +1,143 @@
+.container-form {
+  min-height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form h2 {
+  margin-bottom: 30px;
+  color: #163344;
+  font-size: 1.7em;
+}
+.form h4 {
+  text-align: center;
+}
+.form input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: #143244 1px solid;
+}
+.form input:focus {
+  border: var(--color-green) 1px solid;
+}
+.form label {
+  margin-bottom: 5px;
+  color: #163344;
+  font-weight: 600;
+}
+.form input::placeholder {
+  color: rgba(20, 50, 68, 0.2);
+}
+.btn-form {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1.1em;
+  font-weight: 600;
+  transition: 0.6s;
+}
+
+.checkbox {
+  margin-top: -10px;
+}
+.checkbox input {
+  width: 15px;
+  background-color: red;
+  accent-color: var(--color-blue);
+}
+.form a {
+  color: var(--color-blue);
+  text-align: center;
+  margin-top: 20px;
+}
+.form a:hover {
+  text-decoration: underline;
+}
+/* Cadastro */
+.btn-cadastro {
+  color: #143244;
+  padding: 10px;
+  border: 2px solid #143244;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.color-blue {
+  color: #4472e8 !important;
+}
+/* Cadastro */
+.bg-facebook:hover {
+  background: #4472e8;
+  color: #fff;
+  transition: 0.3s;
+  border: 2px solid #4472e8;
+}
+.bg-google:hover {
+  background: #c54338;
+  color: #fff;
+  transition: 0.3s;
+  border: 2px solid #c54338;
+}
+.fa-brands {
+  color: #c54338;
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+.bg-line {
+  text-align: center;
+  margin: 10px 0;
+  position: relative;
+}
+.bg-line::after {
+  content: '';
+  width: 170px;
+  display: block;
+  height: 1px;
+  background: #143244;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+}
+.bg-line::before {
+  content: '';
+  width: 170px;
+  display: block;
+  height: 1px;
+  background: #143244;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+}
+.btn-bg-blue {
+  background: #143244;
+  border: none;
+  color: var(--color-green) !important;
+}
+.btn-bg-blue:hover {
+  background: var(--color-green);
+  border: none;
+  color: var(--color-blue) !important;
+}
+.btn-bg-green {
+  background: var(--color-green);
+  border: none;
+  color: var(--color-blue) !important;
+}
+.btn-bg-green:hover {
+  background: var(--color-blue);
+  border: none;
+  color: var(--color-green) !important;
+}
